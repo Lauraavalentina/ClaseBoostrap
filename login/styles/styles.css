@@ -1,0 +1,79 @@
+/* Estilos Generales */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*colores texto */
+.text-blue{
+    color:rgb(56, 146, 202);
+}
+
+/* Colores de Fondo */
+.bg-gray{
+    background-image: url("./Imagenes/Paisaje.jpg");
+    background-size: cover;
+    /*background-position: la-medida-en-y la-medida-en-x;*/
+    background-position-y: 20%;
+    /*background-color: lightpink; */
+}
+.bg-white{
+    background-color: white;
+}
+
+/* Contenedor del Formulario */
+.form-container{
+    padding: 4rem;
+    width: 30%;
+    height: 20rem;
+   /* border: <tipo de borde> <medida del borde> <color del borde>; */
+   border: solid 0.1rem grey;
+   border-radius: 0.4rem;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   /* box-shadow: <posicion en x> <posicion en y> <nivel de distorcion> <color>; */
+   box-shadow: -11px 11px 10px #00000081;
+}
+/* contenedor de los inputs */
+.input-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-container input{
+    border-radius: 0.4rem;
+    border: solid 0.1rem grey;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+/* Contenedor checkbox */
+.check-container{
+    margin-top: 0.7rem;
+}
+.check-container input {
+    margin-right: 0.3rem;
+}
+/* Estilos del boton */
+.btn-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding:0.7rem;
+    background-color:rgb(202, 175, 56);
+    border: 0px;
+    border-radius: 0.3rem;
+    color:white;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
+/* Aliniacion del formulario */
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
